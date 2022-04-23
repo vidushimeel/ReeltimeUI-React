@@ -14,12 +14,16 @@ body {
 h1 {
   font-family: 'Anek Tamil', sans-serif;
   text-align: center;
-  padding-bottom: 165px;
-  font-size: 22px;
+  padding-bottom: 130px;
+  font-size: 28px;
+  font-weight: 300;
   color: white;
+  inline-size: max-content;
+
 }
 
 .sidePanel {
+  
   position: absolute;
   top: 0px;
   right: 0px;
@@ -38,6 +42,17 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
+.terms-div {
+  color: #E1EAF3;
+  position: absolute;
+  text-align: center;
+  top: 395px;
+  left: 65px;
+  width: 170px;
+  height: 40px;
+  font-size: 8px;
+}
+
 .username-leftalign {
   margin: 0;
   position: absolute;
@@ -47,8 +62,7 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-
-.username-box {
+.username-div {
   border-radius: 25px;
   background: #DDF3FF;
   position: absolute;
@@ -58,4 +72,16 @@ h1 {
   height: 40px;
   font-size: 10px;
 
+}
+
+a:link {
+  color:#00B5EF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: transparent;
+  text-decoration: underline;
 }
