@@ -1,16 +1,25 @@
 import './App.css';
+import tempimagelanding from './tempimagelanding.png'; //landing page bottom image inclusion
+import templogo from './templogo.png'; //logo inclusion
 
 function App() {
   return (
-    <div class="sidePanel">
-        <h1 id="login-header" class = "center">Welcome to Reeltime!</h1>
-      <div class="username-div">
-      <p class = "username-leftalign">Enter any username...</p>
-      </div>
-      <div class = "terms-div ">
-      <p> By registering, you agree to Reeltime’s <a href="google.com">Terms of Service</a>  and <a href="google.com">Privacy Policy</a> </p>
 
+    <div class="sidePanel">
+    <body>
+
+      <div class = "reeltimeheading">      
+      <p>Welcome to Reeltime!</p>
       </div>
+
+      <div id="logo"> 
+      <img src={templogo}  alt="temporary logo smirk with 3d glasses" width={90}  />
+      </div> 
+
+    <div class = "footer">
+    <img src={tempimagelanding} width={270} alt="temporary landing page image" />
+    </div>
+    </body>
     </div>
   )
 }
