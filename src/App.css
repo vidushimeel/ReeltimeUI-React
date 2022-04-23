@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Tamil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anek+Tamil&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Anek Tamil', sans-serif;
+  text-align: center;
+  padding-bottom: 165px;
+  font-size: 22px;
+  color: white;
+}
+
+.sidePanel {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%; /* 765 pixels dont delete this comment*/
+  width: 290px;
+  background-color: #22252D;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.username-leftalign {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+.username-box {
+  border-radius: 25px;
+  background: #DDF3FF;
+  position: absolute;
+  top: 355px;
+  left: 65px;
+  width: 170px;
+  height: 40px;
+  font-size: 10px;
+
+}
