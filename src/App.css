@@ -25,6 +25,8 @@ h2 {
   font-size: 20px;
 }
 .sidePanel {
+  overflow-x: hidden;
+  overflow-y: auto;
   position: absolute;
   right: 0px;
   height: 100%; /* 765 pixels dont delete this comment*/
@@ -34,18 +36,10 @@ h2 {
 
 .reeltimeheading {
   font-size: 25px;
-  padding-top: 15%;
+  padding-top: 50%;
   text-align: center;
 }
 
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 290px;
-  color: white;
-  text-align: center;
-}
 
 
 #logo{ 
@@ -55,47 +49,36 @@ h2 {
   width: 10px;
 } 
 
-.myform-area .form-area .form-input input{
-  height: 60px;
-  background-color: #22252D;
+
+.signin { 
+  margin: auto;
+  width: 75%;
+  font-size: 13px;
+
+  }
+
+label {
+    display: block;
 }
-.myform-area .form-area .form-input input,
-.myform-area .form-area .form-input textarea{
-  text-transform: capitalize;
-  width: 180px;
-  box-sizing: border-box;
-  outline: none;
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+input[type=text], input[type = password] {
+  background: transparent;
   border: none;
-  border-bottom: 1.5px solid #e1e1e1;
-  color: #428BD8;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 5px;
+  padding-top: 3px;
+  color: white;
+
+  
 }
-.myform-area .form-area .form-input form .form-group{
-  position: relative;
-}
-.myform-area .form-area .form-input form .form-group label{
-  position: absolute;
-  top: 30px;
-  left: 0;
-  pointer-events: none;
-  font-size: 14px;
-  color: #ffffff;
-  margin-bottom: 0;
-  transition: all .45s;
-}
-.myform-area .form-area .form-input input:focus ~ label,
-.myform-area .form-area .form-input textarea:focus ~ label,
-.myform-area .form-area .form-input input:valid ~ label,
-.myform-area .form-area .form-input textarea:valid ~ label{
-  top: -3px;
-  opacity: 0;
-  left: 0;
-  color: #428BD8;
-  font-size: 12px;
-  font-weight: bold;
-}
-.myform-area .form-area .form-input input:focus,
-.myform-area .form-area .form-input textarea:focus,
-.myform-area .form-area .form-input input:valid,
-.myform-area .form-area .form-input textarea:valid{
-  border-bottom: 1.5px solid #428BD8;
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+  color: white;
+
 }

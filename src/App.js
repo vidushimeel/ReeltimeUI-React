@@ -6,43 +6,29 @@ function App() {
   return (
 
     <div class="sidePanel">
-    <body>
-
-
-      <div class = "reeltimeheading">      
-      <p>Welcome to Reeltime!</p>
+     
+  
+     <div class = "reeltimeheading">      
+      <p>Welcome, sign in...</p>
       </div>
 
+    <div class = "signin">
+    <label for="username">username:</label>
+    <input type="text" id="username" name="username" size="30"/> 
+    <label for="pass">password:</label>
+    <input type="password" id="pass" name="password" size="30" minlength="8" required/> </div>
 
-  <section class="myform-area">
-                  <div class="row justify-content-center">
-                          <div class="form-area login-form">
-                              <div class="form-input">
-                                  <form>
-                                      <div class="form-group">
-                                          <input type="text"  id="" name="name" required/>
-                                          <label>User Name</label>
-                                      </div>
-                                      <div class="form-group">
-                                          <input type="password" id="" name="password" required/>
-                                          <label>password</label>
-                                      </div>
-                                  </form>
-                             </div>
-                      </div>
-                  </div>
-
-          </section>
-
+      
       <div id="logo"> 
       <img src={templogo}  alt="temporary logo smirk with 3d glasses" width={90}  />
       </div> 
 
-    
-    </body>
+</div>
 
 
-    </div>
+
+
+
 
 
 
