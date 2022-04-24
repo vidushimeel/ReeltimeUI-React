@@ -35,7 +35,7 @@ h2 {
 .reeltimeheading {
   font-size: 25px;
   padding-top: 15%;
-  padding-bottom: 100%;
+  text-align: center;
 }
 
 .footer {
@@ -54,3 +54,48 @@ h2 {
 	right:270px;
   width: 10px;
 } 
+
+.myform-area .form-area .form-input input{
+  height: 60px;
+  background-color: #22252D;
+}
+.myform-area .form-area .form-input input,
+.myform-area .form-area .form-input textarea{
+  text-transform: capitalize;
+  width: 180px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid #e1e1e1;
+  color: #428BD8;
+}
+.myform-area .form-area .form-input form .form-group{
+  position: relative;
+}
+.myform-area .form-area .form-input form .form-group label{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  pointer-events: none;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+  transition: all .45s;
+}
+.myform-area .form-area .form-input input:focus ~ label,
+.myform-area .form-area .form-input textarea:focus ~ label,
+.myform-area .form-area .form-input input:valid ~ label,
+.myform-area .form-area .form-input textarea:valid ~ label{
+  top: -3px;
+  opacity: 0;
+  left: 0;
+  color: #428BD8;
+  font-size: 12px;
+  font-weight: bold;
+}
+.myform-area .form-area .form-input input:focus,
+.myform-area .form-area .form-input textarea:focus,
+.myform-area .form-area .form-input input:valid,
+.myform-area .form-area .form-input textarea:valid{
+  border-bottom: 1.5px solid #428BD8;
+}
