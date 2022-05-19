@@ -1,6 +1,7 @@
 import './App.css';
 import tempimagelanding from './tempimagelanding.png'; //landing page bottom image inclusion
 import templogo from './templogo.png'; //logo inclusion
+import {data} from "./data.js"
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
      
   
      <div class = "reeltimeheading">      
-      <p>Welcome, sign in...</p>
+      <p>Welcome...</p>
       </div>
 
     <div class = "signin">

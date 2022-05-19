@@ -42,15 +42,15 @@ h2 {
 
 
 
-#logo{ 
-	position:fixed; 
-	top:10px; 
+#logo{
+	position:fixed;
+	top:10px;
 	right:270px;
-  width: 10px;
-} 
+  width: 9px;
+}
 
 
-.signin { 
+.signin {
   margin: auto;
   width: 75%;
   font-size: 13px;
@@ -74,7 +74,7 @@ input[type=text], input[type = password] {
   padding-top: 3px;
   color: white;
 
-  
+
 }
 
 input:focus, textarea:focus, select:focus{
